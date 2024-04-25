@@ -151,4 +151,9 @@ export class BarcodeScanner extends AwesomeCordovaNativePlugin {
   encode(type: string, data: any): Promise<any> {
     return;
   }
+
+  @Cordova()
+  startCameraScan(): Promise<any> {
+    return;
+  }
 }
